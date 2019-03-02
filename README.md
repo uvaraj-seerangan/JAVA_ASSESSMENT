@@ -19,9 +19,9 @@ Output : 6
 ##### Explanation:
 Must increment any duplicate elements until all its elements are unique.
 
-[2, 3, 4] - all elements are unique 
+[1, 2, 3] - all elements are unique 
 
-2 + 3 + 4 = 9
+1 + 2 + 3 = 6
 
 # Problem 2: Super Stack
 
@@ -82,3 +82,38 @@ Enter the [6] value : 3
 Enter the k value : 1
 Pair count : 2
 ```
+
+# How to Run the Program?
+Java 8 is required as one of the program is uses java 8 stream feature.
+Please make sure JDK 8 or above installed in your machine to run all the program without any issue.
+
+1. Download or clone the git repository into your local.
+2. If downloaded as zip file then extract the zip file in local file system.
+3. Use command prompt and jump into the src folder.
+4. Compile the programs using javac command.
+4. Run the program using java command.
+
+```
+javac com\assignment\array\MinimumUniqueSum.java
+
+java com.assignment.array.MinimumUniqueSum
+
+```
+![ScreenShot](images/MinimumUniqueSum.png)
+
+```
+javac com\assignment\stack\SuperStack.java
+
+java com.assignment.stack.SuperStack
+
+```
+![ScreenShot](images/SuperStack.png)
+
+```
+javac com\assignment\pair\CountPair.java
+
+java com.assignment.pair.CountPair
+
+```
+![ScreenShot](images/CountingPair.png)
+
