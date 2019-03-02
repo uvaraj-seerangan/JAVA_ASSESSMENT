@@ -3,13 +3,13 @@ package com.assignment.stack;
 //* Filename: 		SuperStack.java
 //* Revision: 		1.0
 //* Author: 		Uvaraj Seerangan
-//* Created On: 	Feb 2, 2019
+//* Created On: 	Feb 3, 2019
 //* Modified by: 	
 //* Modified On: 	
 //*     
 //* Description:    PUSH / POP / INSERT element into the stack
 //*    	   Rule:    1) Validate the input operation
-//* 				2) invoke the stack operation to do the specific functionality & print output
+//* 		    2) invoke the stack operation to do the specific functionality & print output
 /********************************************************************************************/
 import java.util.LinkedList;
 import java.util.ListIterator;
@@ -36,7 +36,7 @@ public class SuperStack {
 	 * CONSTRUCTOR - Initialize the stack
 	 */
 	public SuperStack() {
-		this.stack = new LinkedList<Integer>();
+	this.stack = new LinkedList<Integer>();
 	}
 
 	/**
