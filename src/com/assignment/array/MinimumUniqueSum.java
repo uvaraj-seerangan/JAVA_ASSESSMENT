@@ -3,12 +3,12 @@ package com.assignment.array;
 //* Filename: 		MinimumUniqueSum.java
 //* Revision: 		1.0
 //* Author: 		Uvaraj Seerangan
-//* Created On: 	Feb 2, 2019
+//* Created On: 	Feb 3, 2019
 //* Modified by: 	
 //* Modified On: 	
 //*     
-//* Description:    Finding Minimum Unique Array Sum
-//* Pre-requisites: Must increment any duplicate elements until all its elements are unique.
+//* Description:        Finding Minimum Unique Array Sum
+//* Pre-requisites:     Must increment any duplicate elements until all its elements are unique.
 /********************************************************************************************/
 import java.util.Arrays;
 import java.util.InputMismatchException;
